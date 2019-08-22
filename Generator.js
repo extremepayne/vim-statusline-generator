@@ -24,13 +24,19 @@ let options = [
     buttonColour: 'dark'
   },
   {
-    title: 'Short filename',
+    title: 'Filename',
     out: '%f',
     preview: 'myscript.js',
     buttonColour: 'dark'
   },
   {
-    title: 'Long filename',
+    title: 'Short path',
+    out: 'pathshorten(%F)',
+    preview: '/h/t/myscript.js',
+    buttonColor: 'dark'
+  },
+  {
+    title: 'Full path',
     out: '%F',
     preview: '/home/tom/myscript.js',
     buttonColour: 'dark'
